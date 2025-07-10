@@ -1,0 +1,117 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+profile_default/
+ipython_config.py
+
+# SageMaker specific
+.sagemaker/
+.sagemaker-*
+*.tar.gz
+*.model
+*.tar
+*.pkl
+
+# Model files (optional - uncomment if you want to exclude model files)
+# models/
+
+# Data files (optional - uncomment if you want to exclude data files)
+# data/raw/
+# data/processed/
+# data/augmented/
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# PyTorch specific
+*.pt
+*.pth
+*.ckpt
+.pytorch/
+
+# Hugging Face specific
+.cache/
+.huggingface/
+
+# AWS specific
+.aws/
+.aws-sam/
+samconfig.toml
+
+# Temporary files
+tmp/
+temp/
