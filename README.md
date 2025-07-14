@@ -1,4 +1,5 @@
 # Fake Review Detection on Amazon SageMaker
+### Revision: 1
 
 This project implements a machine learning solution for detecting fake reviews using Amazon SageMaker. The implementation uses transformer-based models to classify reviews as either genuine or fake.
 
@@ -35,6 +36,15 @@ The PoC notebook demonstrates:
 - Fine-tuning a pretrained transformer model
 - Evaluating model performance
 - Testing with sample reviews
+
+## Version Tracking
+
+This repository includes a version tracking system to help manage changes:
+
+- Each file has a revision number displayed at the top
+- Use `./update_revision.sh <file_path> [commit_message]` to update a file's revision
+- View revision history with `python version_tracker.py log`
+- Check current revision status with `python version_tracker.py status`
 
 ## Next Steps
 
